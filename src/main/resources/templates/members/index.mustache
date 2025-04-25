@@ -1,0 +1,16 @@
+{{>layouts/header}}
+
+<table class="table">
+    <thead>
+    <th>Id</th><th>email</th>
+    </thead>
+    <tbody>
+    {{#members}}
+    <tr>
+        <th>{{id}}</th><td>{{email}}</td>
+    </tr>
+    {{/members}}
+    </tbody>
+</table>
+
+{{>layouts/footer}}
