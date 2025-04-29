@@ -4,12 +4,16 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="corretto-17" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/../../../../OneDrive-강남대학교/4_1/고급웹프로그래밍/gradle-spring" />
+            <option value="$PROJECT_DIR$" />
           </set>
         </option>
+        <option name="resolveExternalAnnotations" value="true" />
       </GradleProjectSettings>
     </option>
   </component>

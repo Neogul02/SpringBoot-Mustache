@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Condition</title>
+</head>
+<body>
+
+<h1>Welcome</h1>
+
+<!--로그인이 되었다면-->
+{{#loggedIn}}
+<p>Hello {{username}}! You're logged in.</p>
+{{/loggedIn}}
+
+<!--로그인이 되어있지 않으면-->
+{{^loggedIn}}
+<p>You're not logged in. Please log in.</p>
+{{/loggedIn}}
+</body>
+</html>

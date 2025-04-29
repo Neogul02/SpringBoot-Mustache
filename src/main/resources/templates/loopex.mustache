@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>반복</title>
+</head>
+<body>
+
+<!--apple banana oragne-->
+<p>
+    {{#fruits}}
+        {{.}}
+    {{/fruits}}
+</p>
+
+
+{{#persons}}
+    <p>{{name}} | {{age}} | {{address}}</p>
+{{/persons}}
+
+<!--
+{{!#persons}}
+    <p>{{!.}}</p>            &lt;!&ndash;toString method에 있는 내용으로 정리&ndash;&gt;
+{{!/persons}}
+-->
+
+</body>
+</html>

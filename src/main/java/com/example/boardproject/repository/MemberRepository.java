@@ -9,8 +9,7 @@ import java.util.List;
 @Repository
 public interface MemberRepository extends CrudRepository<Member, Long> {
 
-/*
+
     @Override
     List<Member> findAll();
-*/
 }

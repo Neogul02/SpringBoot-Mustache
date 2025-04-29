@@ -49,7 +49,7 @@ public class ArticleController {
     
     //단일 데이터 조회
     @GetMapping("/articles/{id}")
-    public String show(@PathVariable("id") Long id, Model model){
+    public String show(@PathVariable Long id, Model model){
 
         log.info("id: {}", id);
 

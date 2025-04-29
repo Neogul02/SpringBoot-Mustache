@@ -43,7 +43,7 @@ public class MemberController {
     
     //1번 member 정보 조회
     @GetMapping("/members/{id}")
-    public String show(@PathVariable("id")Long id, Model model){
+    public String show(@PathVariable Long id, Model model){
 
         Member member = memberRepository.findById(id).orElse(null);  //member가 없을때 null 객체 생성
 
